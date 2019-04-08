@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-color: #000;
+}
+
+.wrapper {
+	height: 700px;
+}
+#space {
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+.enemy {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 34px;
+	height: 21px;
+	background: url('images/enemy.png') center center no-repeat;
+	background-size: 100%;
+}
+.aircraft {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	width: 52px;
+	height: 52px;
+	background: url('images/spacecraft.png') center center no-repeat;
+	background-size: 100%;
+}
+.aircraft2 {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	width: 40px;
+	height: 60px;
+	background: url('images/spacecraft2.png') center center no-repeat;
+	background-size: 100%;
+}
+#aircraft-functions {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+}
+.bullet {
+	/*display: none;*/
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-color: #fff;
+}
+.counter-block {
+	font-size: 18px;
+	float: right;
+	margin: 20px 40px;
+	color: #ff0000;
+}
+.counter {
+	color: #ffff00;
+}
+.killed-enemy {
+	background-image: url('images/killed-enemy.png');
+}
